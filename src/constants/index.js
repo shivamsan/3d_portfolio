@@ -15,15 +15,25 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+
+    
     threejs,
+    myeats,
+    musicplayer,
+    drowsiness,
+
+    codeclause,
+    edunet,
+    yp,
+    ps,
+    im,
+    
+    
   } from "../assets";
+
+  
+
+  
   
   export const navLinks = [
     {
@@ -46,11 +56,11 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Blockchain Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "ML Developer",
       icon: backend,
     },
     {
@@ -116,150 +126,127 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Web Development Internship",
+      company_name: "Edunet Foundation",
+      icon: edunet,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Feb 2024 - April 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a Food Ordering Website: Designed and implemented a dynamic and responsive food ordering platform.",
+        "Created an engaging and user-friendly interface to enhance customer experience and streamline navigation.",
+        "Successfully integrated a chatbot using Google Dialogflow service to handle customer queries and provide real-time assistance, improving customer interaction.",
+        "Implemented an efficient order management system, allowing users to place, track, and manage their food orders.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Web Development Internship",
+      company_name: "CodeClause",
+      icon: codeclause,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Dec 2023 - Jan 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Built a web-based text editor providing users with rich text editing capabilities.",
+        "Enabled functionalities such as text highlighting, bold, italics, various heading levels, text alignment, and more to enhance document formatting.",
+        "Designed an intuitive and clean interface to make text editing simple and accessible for users.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "The drowsiness detection system is impressive—accurate alerts and smooth functionality!",
+      name: "Yashodeep Patil",
+      image: yp,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Great design and easy navigation—ordering my favorite dishes is quick and simple.",
+      name: "Pritam Singh",
+      image: ps,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "The editor's features and customization options make it a powerful tool for all my text editing needs.",
+      name: "Ishaan Matto",
+      image: im,
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Music Streaming Website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Created a fully functional music streaming platform. Designed an intuitive and visually appealing interface to enhance the user experience and facilitate easy navigation. Implemented features allowing users to create playlists, search for tracks, and control playback seamlessly.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
+        {
+          name: "Django",
+          color: "green-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: musicplayer,
+      source_code_link: "https://github.com/shivamsan/Groovista",
     },
     {
-      name: "Job IT",
+      name: "Drowsiness Detection System",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Implemented a real-time computer vision project utilizing facial mapping techniques to track users’ eyes and head position through coordinate analysis. Implemented an alert mechanism to trigger alarms upon detecting drowsiness, enhancing safety and attentiveness. Enhanced safety and attentiveness in various contexts, showcasing skills in computer vision, real-time monitoring, and AI-based safety solutions.",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "OpenCV",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "YOLO",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: drowsiness,
+      source_code_link: "https://github.com/shivamsan/Open_CV_Drowsiness_Detector",
     },
     {
-      name: "Trip Guide",
+      name: "My Eats",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Developed a Food Ordering Website: Designed and implemented a dynamic and responsive food ordering platform. Created an engaging and user-friendly interface to enhance customer experience and streamline navigation. Successfully integrated a chatbot using Google Dialogflow service to handle customer queries and provide real-time assistance, improving customer interaction. Implemented an efficient order management system, allowing users to place, track, and manage their food orders.",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
+        {
+          name: "Dialogflow",
+          color: "green-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: myeats,
+      source_code_link: "https://github.com/shivamsan/myeats",
     },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };
